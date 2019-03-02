@@ -3,10 +3,10 @@
 
 1. python (3.0)
 2. Python packages:
-	a. matplotlib
-	b. scikit-learn
-	c. pandas
-	d. csv
+	- matplotlib
+	- scikit-learn
+	- pandas
+	- csv
 
 
 **Usage**
