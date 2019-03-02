@@ -1,0 +1,192 @@
+.******************************
+2017-11-16 14:00:20.727620
+(42345, 17)
+2017-11-16 14:06:40.260824
+Support Vector Machine Cross Val
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[30457  2795]
+ [ 7255  1838]]
+/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/tight_layout.py:225: UserWarning: tight_layout : falling back to Agg renderer
+  warnings.warn("tight_layout : falling back to Agg renderer")
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.76266383280198369)
+('precision: ', 0.39671918843082238)
+('recall: ', 0.20213350929286264)
+('f1: ', 0.2678129098062072)
+('area under curve (auc): ', 0.55903920743122626)
+             precision    recall  f1-score   support
+
+          0       0.81      0.92      0.86     33252
+          1       0.40      0.20      0.27      9093
+
+avg / total       0.72      0.76      0.73     42345
+
+('(auc): ', 0.55903920743122626)
+Time: 
+379.533204
+2017-11-16 14:06:41.228388
+(42345, 17)
+2017-11-16 14:12:45.344417
+Support Vector Machine Leave out
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[19353 13899]
+ [ 8840   253]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.46300625811784152)
+('precision: ', 0.017877331825890335)
+('recall: ', 0.02782360057186847)
+('f1: ', 0.021768122176812219)
+('area under curve (auc): ', 0.30491685261361379)
+             precision    recall  f1-score   support
+
+          0       0.69      0.58      0.63     33252
+          1       0.02      0.03      0.02      9093
+
+avg / total       0.54      0.46      0.50     42345
+
+('(auc): ', 0.30491685261361379)
+Time: 
+364.116029
+2017-11-16 14:12:46.507648
+(42345, 154)
+Support Vector Machine Degree 2 Cross Val
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[31083  2169]
+ [ 7321  1772]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.77588853465580354)
+('precision: ', 0.44963207307789899)
+('recall: ', 0.19487517870889695)
+('f1: ', 0.2719042504219733)
+('area under curve (auc): ', 0.56482300978028754)
+             precision    recall  f1-score   support
+
+          0       0.81      0.93      0.87     33252
+          1       0.45      0.19      0.27      9093
+
+avg / total       0.73      0.78      0.74     42345
+
+('(auc): ', 0.56482300978028754)
+Time: 
+2316.199906
+2017-11-16 15:28:50.824613
+Support Vector Machine Degree 2 CV
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[19329 13923]
+ [ 8780   313]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.46385641752272994)
+('precision: ', 0.021986513065467828)
+('recall: ', 0.034422082920928188)
+('f1: ', 0.026833554803034853)
+('area under curve (auc): ', 0.30785521323960519)
+             precision    recall  f1-score   support
+
+          0       0.69      0.58      0.63     33252
+          1       0.02      0.03      0.03      9093
+
+avg / total       0.54      0.46      0.50     42345
+
+('(auc): ', 0.30785521323960519)
+Time: 
+2247.032437
+
+One Class - SVM 17 features
+(26699,)
+[-1  1 -1 ...,  1  1 -1]
+('accuracy: ', 0.49990636353421475)
+('precision: ', 1.0)
+('recall: ', 0.49990636353421475)
+('f1: ', 0.66658342905658496)
+             precision    recall  f1-score   support
+
+         -1       0.00      0.00      0.00         0
+          1       1.00      0.50      0.67     26699
+
+avg / total       1.00      0.50      0.67     26699
+
+----------Test MCI------
+/Library/Python/2.7/site-packages/sklearn/metrics/classification.py:1137: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+(15646, 17)
+('Healthy:   ', 6553)
+('MCI:   ', 9093)
+('accuracy: ', 0.52799437555924833)
+('precision: ', 0.45170652426282798)
+('recall: ', 0.59377384404089728)
+('f1: ', 0.51308762444781442)
+('area under curve (auc): ', 0.53718165423204001)
+('Confusion Matrix: ', array([[4370, 4723],
+       [2662, 3891]]))
+             precision    recall  f1-score   support
+
+         -1       0.62      0.48      0.54      9093
+          1       0.45      0.59      0.51      6553
+
+avg / total       0.55      0.53      0.53     15646
+
+
+
+
+--- one class svm degree 2 interaction only
+-1  1 -1 ...,  1 -1 -1]
+('accuracy: ', 0.49990636353421475)
+('precision: ', 1.0)
+('recall: ', 0.49990636353421475)
+('f1: ', 0.66658342905658496)
+/Library/Python/2.7/site-packages/sklearn/metrics/classification.py:1137: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+             precision    recall  f1-score   support
+
+         -1       0.00      0.00      0.00         0
+          1       1.00      0.50      0.67     26699
+
+avg / total       1.00      0.50      0.67     26699
+
+----------Test MCI------
+(15646, 17)
+('Healthy:   ', 6553)
+('MCI:   ', 9093)
+('accuracy: ', 0.52837786015595045)
+('precision: ', 0.45224329324699353)
+('recall: ', 0.59682588127575154)
+('f1: ', 0.51457140977567273)
+('area under curve (auc): ', 0.53793784990874349)
+('Confusion Matrix: ', array([[4356, 4737],
+       [2642, 3911]]))
+             precision    recall  f1-score   support
+
+         -1       0.62      0.48      0.54      9093
+          1       0.45      0.60      0.51      6553
+
+avg / total       0.55      0.53      0.53     15646
+
+

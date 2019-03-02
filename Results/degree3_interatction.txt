@@ -1,0 +1,63 @@
+******************************
+(42345, 834)
+2017-11-16 13:04:25.618982
+/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/tight_layout.py:225: UserWarning: tight_layout : falling back to Agg renderer
+  warnings.warn("tight_layout : falling back to Agg renderer")
+2017-11-16 13:20:11.154733
+Time:  945.535751
+Logistic Regression Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[30727  2525]
+ [ 7296  1797]]
+/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/tight_layout.py:225: UserWarning: tight_layout : falling back to Agg renderer
+  warnings.warn("tight_layout : falling back to Agg renderer")
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.768071791238635)
+('precision: ', 0.41577973160573806)
+('recall: ', 0.19762454635433852)
+('f1: ', 0.26790905702571749)
+('area under curve (auc): ', 0.56084463213302149)
+             precision    recall  f1-score   support
+
+          0       0.81      0.92      0.86     33252
+          1       0.42      0.20      0.27      9093
+
+avg / total       0.72      0.77      0.73     42345
+
+('(auc): ', 0.56084463213302149)
+2017-11-16 13:20:16.714708
+2017-11-16 13:21:58.550980
+LDA Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[30347  2905]
+ [ 7168  1925]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.76212067540441608)
+('precision: ', 0.39855072463768115)
+('recall: ', 0.21170130869899922)
+('f1: ', 0.27652086475615889)
+('area under curve (auc): ', 0.56216907128682669)
+             precision    recall  f1-score   support
+
+          0       0.81      0.91      0.86     33252
+          1       0.40      0.21      0.28      9093
+
+avg / total       0.72      0.76      0.73     42345
+
+('(auc): ', 0.56216907128682669)
+Time: 
+101.836272

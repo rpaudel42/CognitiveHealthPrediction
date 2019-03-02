@@ -1,0 +1,220 @@
+/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 "/Users/rameshpaudel/Documents/Class-Material/Fall2017/Cognitive Health/SVM-DT/main.py"
+******************************
+(19097, 17)
+2017-11-16 23:16:11.338678
+2017-11-16 23:16:12.137480
+Time:  0.798802
+Logistic Regression Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/tight_layout.py:225: UserWarning: tight_layout : falling back to Agg renderer
+[[6840 3164]
+  warnings.warn("tight_layout : falling back to Agg renderer")
+ [3567 5526]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.64753626224014238)
+('precision: ', 0.63590333716915992)
+('recall: ', 0.6077202243483999)
+('f1: ', 0.62149243659674969)
+('area under curve (auc): ', 0.64572336687232068)
+             precision    recall  f1-score   support
+
+          0       0.66      0.68      0.67     10004
+          1       0.64      0.61      0.62      9093
+
+avg / total       0.65      0.65      0.65     19097
+
+('(auc): ', 0.64572336687232068)
+2017-11-16 23:16:12.968170
+2017-11-16 23:16:13.339542
+LDA Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[6820 3184]
+ [3523 5570]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.64879300413677543)
+('precision: ', 0.63628055745944712)
+('recall: ', 0.61255911140437702)
+('f1: ', 0.62419454250014006)
+('area under curve (auc): ', 0.64714321024037325)
+             precision    recall  f1-score   support
+
+          0       0.66      0.68      0.67     10004
+          1       0.64      0.61      0.62      9093
+
+avg / total       0.65      0.65      0.65     19097
+
+('(auc): ', 0.64714321024037325)
+Time: 
+0.371372
+QDA Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[4890 5114]
+ [2517 6576]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.60040844111640568)
+('precision: ', 0.56253207869974342)
+('recall: ', 0.72319366545694486)
+('f1: ', 0.63282490497040855)
+('area under curve (auc): ', 0.60599907183283075)
+             precision    recall  f1-score   support
+
+          0       0.66      0.49      0.56     10004
+          1       0.56      0.72      0.63      9093
+
+avg / total       0.61      0.60      0.60     19097
+
+('(auc): ', 0.60599907183283075)
+KNN Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[7901 2103]
+ [4183 4910]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.67083835157354554)
+('precision: ', 0.70012833309567946)
+('recall: ', 0.53997580556472013)
+('f1: ', 0.6097106668322364)
+('area under curve (auc): ', 0.66487994596508693)
+             precision    recall  f1-score   support
+
+          0       0.65      0.79      0.72     10004
+          1       0.70      0.54      0.61      9093
+
+avg / total       0.68      0.67      0.67     19097
+
+('(auc): ', 0.66487994596508693)
+Random Forest Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[8388 1616]
+ [3524 5569]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.73084777713777038)
+('precision: ', 0.77508698677800969)
+('recall: ', 0.61244913669855938)
+('f1: ', 0.68423639267723302)
+('area under curve (auc): ', 0.72545687542644877)
+             precision    recall  f1-score   support
+
+          0       0.70      0.84      0.77     10004
+          1       0.78      0.61      0.68      9093
+
+avg / total       0.74      0.73      0.73     19097
+
+('(auc): ', 0.72545687542644877)
+Decision Tree Classifier Report
+===========================================
+
+[1 0 0 ..., 0 0 0]
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[7386 2618]
+ [3447 5646]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.68241084987170764)
+('precision: ', 0.68320425943852858)
+('recall: ', 0.62091718904651927)
+('f1: ', 0.65057325574696079)
+('area under curve (auc): ', 0.67961093358763391)
+             precision    recall  f1-score   support
+
+          0       0.68      0.74      0.71     10004
+          1       0.68      0.62      0.65      9093
+
+avg / total       0.68      0.68      0.68     19097
+
+('(auc): ', 0.67961093358763391)
+Ada Boost Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[7215 2789]
+ [3736 5357]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.6583232968529088)
+('precision: ', 0.65762337343481458)
+('recall: ', 0.58913449906521498)
+('f1: ', 0.62149776669180334)
+('area under curve (auc): ', 0.65517300722952876)
+             precision    recall  f1-score   support
+
+          0       0.66      0.72      0.69     10004
+          1       0.66      0.59      0.62      9093
+
+avg / total       0.66      0.66      0.66     19097
+
+('(auc): ', 0.65517300722952876)
+2017-11-16 23:16:54.352893
+(19097, 17)
+2017-11-16 23:18:57.455250
+Support Vector Machine Cross Val
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[7996 2008]
+ [3516 5577]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.71073990679164267)
+('precision: ', 0.73526697429136456)
+('recall: ', 0.61332893434510061)
+('f1: ', 0.66878522604628854)
+('area under curve (auc): ', 0.70630461111497334)
+             precision    recall  f1-score   support
+
+          0       0.69      0.80      0.74     10004
+          1       0.74      0.61      0.67      9093
+
+avg / total       0.71      0.71      0.71     19097
+
+('(auc): ', 0.70630461111497334)
+Time: 
+123.102357
+
+Process finished with exit code 0

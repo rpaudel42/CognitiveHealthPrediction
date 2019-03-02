@@ -1,0 +1,25 @@
+Total Pus :-  144
+Total swab :-  93
+Total S. Aureus :-  72
+Total Male :-  119
+Total Female :-  118
+Total Inpatient :-  102
+Total Outpatient :-  135
+Total Male with S. Aureus :-  27
+Total Female with S. Aureus :-  45
+Total Inpatient S. Aureus :-  28
+Total Outpatient S. Aureus :-  44
+
+-----------------------------
+S. Aureus based on age group
+-----------------------------
+Age group     count   %
+50-59   :-    7      9.8
+40-49   :-    4      5.5
+60-69   :-    2      2.7
+10-19   :-    6      8.3
+30-39   :-    12     16.7
+20-29   :-    23     32
+<10     :-    18     25
+------------------------------
+Total   :-    72     100

@@ -1,0 +1,14 @@
+Male (No) :-  43
+Female (No) :-  32
+Total Inpatient  (No):-  34
+Total Outpatient (No) :-  41
+Total Pus :-  86
+Total swab :-  148
+Total Inpatient :-  149
+Total Outpatient :-  85
+
+7 & 8 S. Aureus from pus and swab  (You said from 'No', only,, No bhaye S. Aureus ta audaina.. so 'S. Aureus ma 'Yes' huda kati from Pus or Swab ko data ho yo
+
+Total S. Aureus (Yes) Pus:-  47
+Total S. Aureus (Yes ) Swab:-  25
+

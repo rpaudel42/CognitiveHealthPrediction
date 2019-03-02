@@ -1,0 +1,166 @@
+******************************
+(42345, 17)
+2017-11-16 12:40:50.546624
+2017-11-16 12:40:52.352201
+Time:  1.805577
+Logistic Regression Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[32034  1218]
+ [ 8506   587]]
+/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/tight_layout.py:225: UserWarning: tight_layout : falling back to Agg renderer
+  warnings.warn("tight_layout : falling back to Agg renderer")
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.77036249852402883)
+('precision: ', 0.325207756232687)
+('recall: ', 0.064555152314967557)
+('f1: ', 0.10772618829142962)
+('area under curve (auc): ', 0.51396288831915826)
+             precision    recall  f1-score   support
+
+          0       0.79      0.96      0.87     33252
+          1       0.33      0.06      0.11      9093
+
+avg / total       0.69      0.77      0.70     42345
+
+('(auc): ', 0.51396288831915826)
+2017-11-16 12:40:53.239290
+2017-11-16 12:40:53.978968
+LDA Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[32128  1124]
+ [ 8496   597]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.77281851458259532)
+('precision: ', 0.34689134224288204)
+('recall: ', 0.065654899373144171)
+('f1: ', 0.11041242833364157)
+('area under curve (auc): ', 0.51592621066335553)
+             precision    recall  f1-score   support
+
+          0       0.79      0.97      0.87     33252
+          1       0.35      0.07      0.11      9093
+
+avg / total       0.70      0.77      0.71     42345
+
+('(auc): ', 0.51592621066335553)
+Time: 
+0.739678
+
+KNN Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[30131  3121]
+ [ 6363  2730]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.77603022788995157)
+('precision: ', 0.46658690822081694)
+('recall: ', 0.30023094688221708)
+('f1: ', 0.36536402569593146)
+('area under curve (auc): ', 0.60318596544158976)
+             precision    recall  f1-score   support
+
+          0       0.83      0.91      0.86     33252
+          1       0.47      0.30      0.37      9093
+
+avg / total       0.75      0.78      0.76     42345
+
+('(auc): ', 0.60318596544158976)
+Random Forest Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[28151  5101]
+ [ 5611  3482]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.74703034596764673)
+('precision: ', 0.40568565769544446)
+('recall: ', 0.38293192565709888)
+('f1: ', 0.39398053858338988)
+('area under curve (auc): ', 0.61476380957460985)
+             precision    recall  f1-score   support
+
+          0       0.83      0.85      0.84     33252
+          1       0.41      0.38      0.39      9093
+
+avg / total       0.74      0.75      0.74     42345
+
+('(auc): ', 0.61476380957460985)
+Decision Tree Classifier Report
+===========================================
+
+[0 1 0 ..., 0 0 0]
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[25313  7939]
+ [ 4469  4624]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.70697839178179245)
+('precision: ', 0.36806495263870093)
+('recall: ', 0.50852303970086876)
+('f1: ', 0.42704100480236429)
+('area under curve (auc): ', 0.63488524173182492)
+             precision    recall  f1-score   support
+
+          0       0.85      0.76      0.80     33252
+          1       0.37      0.51      0.43      9093
+
+avg / total       0.75      0.71      0.72     42345
+
+('(auc): ', 0.63488524173182492)
+Ada Boost Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[27036  6216]
+ [ 6161  2932]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.70771047349155747)
+('precision: ', 0.32050721469173588)
+('recall: ', 0.32244583745738481)
+('f1: ', 0.32147360342086506)
+('area under curve (auc): ', 0.56775485665723813)
+             precision    recall  f1-score   support
+
+          0       0.81      0.81      0.81     33252
+          1       0.32      0.32      0.32      9093
+
+avg / total       0.71      0.71      0.71     42345
+
+('(auc): ', 0.56775485665723813)
+2017-11-16 12:43:10.015442
+(42345, 17)
+

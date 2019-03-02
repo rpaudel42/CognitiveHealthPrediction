@@ -1,0 +1,189 @@
+.******************************
+(42345, 154)
+2017-11-16 13:40:25.627749
+2017-11-16 13:42:05.952251
+Time:  100.324502
+Logistic Regression Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[20876 12376]
+ [ 8637   456]]
+/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/tight_layout.py:225: UserWarning: tight_layout : falling back to Agg renderer
+  warnings.warn("tight_layout : falling back to Agg renderer")
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.50376667847443612)
+('precision: ', 0.035536159600997506)
+('recall: ', 0.050148465852853846)
+('f1: ', 0.041596351197263397)
+('area under curve (auc): ', 0.33898016339677456)
+             precision    recall  f1-score   support
+
+          0       0.71      0.63      0.67     33252
+          1       0.04      0.05      0.04      9093
+
+avg / total       0.56      0.50      0.53     42345
+
+('(auc): ', 0.33898016339677456)
+2017-11-16 13:42:07.285876
+2017-11-16 13:42:14.225593
+LDA Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[20870 12382]
+ [ 8608   485]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.50430983587200373)
+('precision: ', 0.037693324007150072)
+('recall: ', 0.053337732321566036)
+('f1: ', 0.044171220400728593)
+('area under curve (auc): ', 0.34048457649399605)
+             precision    recall  f1-score   support
+
+          0       0.71      0.63      0.67     33252
+          1       0.04      0.05      0.04      9093
+
+avg / total       0.56      0.50      0.53     42345
+
+('(auc): ', 0.34048457649399605)
+Time: 
+6.939717
+/Library/Python/2.7/site-packages/sklearn/discriminant_analysis.py:682: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+QDA Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[13204 20048]
+ [ 1726  7367]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.48579525327665601)
+('precision: ', 0.26872150282691959)
+('recall: ', 0.81018365775871548)
+('f1: ', 0.40358277637778023)
+('area under curve (auc): ', 0.60363627733358605)
+             precision    recall  f1-score   support
+
+          0       0.88      0.40      0.55     33252
+          1       0.27      0.81      0.40      9093
+
+avg / total       0.75      0.49      0.52     42345
+
+('(auc): ', 0.60363627733358605)
+KNN Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[19569 13683]
+ [ 8231   862]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.48248907781320111)
+('precision: ', 0.059264352011000346)
+('recall: ', 0.094798196414824593)
+('f1: ', 0.07293341230222522)
+('area under curve (auc): ', 0.34165207547193771)
+             precision    recall  f1-score   support
+
+          0       0.70      0.59      0.64     33252
+          1       0.06      0.09      0.07      9093
+
+avg / total       0.57      0.48      0.52     42345
+
+('(auc): ', 0.34165207547193771)
+Random Forest Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[18516 14736]
+ [ 8498   595]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.45131656630062583)
+('precision: ', 0.03881025373426391)
+('recall: ', 0.065434949961508851)
+('f1: ', 0.048722567965935146)
+('area under curve (auc): ', 0.31113681817815608)
+             precision    recall  f1-score   support
+
+          0       0.69      0.56      0.61     33252
+          1       0.04      0.07      0.05      9093
+
+avg / total       0.55      0.45      0.49     42345
+
+('(auc): ', 0.31113681817815608)
+Decision Tree Classifier Report
+===========================================
+
+[1 0 1 ..., 0 0 0]
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[16371 16881]
+ [ 7277  1816]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.4294958082418231)
+('precision: ', 0.097127881478312028)
+('recall: ', 0.19971406576487408)
+('f1: ', 0.13069449442245409)
+('area under curve (auc): ', 0.34602267705421624)
+             precision    recall  f1-score   support
+
+          0       0.69      0.49      0.58     33252
+          1       0.10      0.20      0.13      9093
+
+avg / total       0.56      0.43      0.48     42345
+
+('(auc): ', 0.34602267705421624)
+Ada Boost Classifier Report
+===========================================
+
+Confusion Matrix: 
+------------------
+
+Confusion matrix, without normalization
+[[16185 17067]
+ [ 8518   575]]
+
+Classification Report: 
+-----------------------
+('accuracy: ', 0.39579643405360726)
+('precision: ', 0.032592676567282618)
+('recall: ', 0.063235455845155608)
+('f1: ', 0.043014774639985029)
+('area under curve (auc): ', 0.27498654784318405)
+             precision    recall  f1-score   support
+
+          0       0.66      0.49      0.56     33252
+          1       0.03      0.06      0.04      9093
+
+avg / total       0.52      0.40      0.45     42345
+
+('(auc): ', 0.27498654784318405)
